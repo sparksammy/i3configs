@@ -164,6 +164,7 @@ exec --no-startup-id xfce4-panel
 
 #good binds for good vibes
 bindsym --release $mod+button2 kill
+bindsym --release $mod+q kill
 bindsym --release $mod+Mod2+KP_8 move up
 bindsym --release $mod+Mod2+KP_2 move down
 bindsym --release $mod+Mod2+KP_4 move left
