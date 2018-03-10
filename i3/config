@@ -173,7 +173,7 @@ bindsym --release $mod+t exec lxterminal
 bindsym --release $mod+y floating toggle
 
 #window environment
-for_window [class="[.]*"] floating disable
+for_window [class="[.]*"] floating enable
 
 
 #autostart
