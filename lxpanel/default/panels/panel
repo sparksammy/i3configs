@@ -113,9 +113,19 @@ Plugin {
   }
 }
 Plugin {
+  type=batt
+  Config {
+  }
+}
+Plugin {
+  type=bluetooth
+  Config {
+  }
+}
+Plugin {
   type=dclock
   Config {
-    ClockFmt=%m:%M.%S %p  %n %A, %B %e, %Y  
+    ClockFmt=%l:%M.%S %p  %n %A, %B %e, %Y  
     TooltipFmt=%A %x
     BoldFont=0
     IconOnly=0
