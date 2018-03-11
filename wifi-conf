@@ -1,0 +1,7 @@
+iwlist wlan0 scan
+echo Network Name
+read NETWORK_ID
+echo Network Passkey
+read WIRELESS_KEY
+
+sudo iwconfig wlan0 essid $NETWORK_ID key $WIRELESS_KEY
