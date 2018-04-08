@@ -160,7 +160,7 @@ exec --no-startup-id nitrogen --restore
 exec compton -b --config ~/.config/compton.conf
 
 #panel
-exec --no-startup-id lxpanel
+exec --no-startup-id xfce4-panel
 
 #good binds for good vibes
 bindsym --release $mod+button2 kill
