@@ -156,7 +156,7 @@ mode invisible
 }
 
 #theme
-exec --no-startup-id nitrogen --restore &
+exec --no-startup-id nitrogen --set-auto /wallpapers/wallpaper.jpg
 exec compton -b --config ~/.config/compton.conf
 
 #panel
