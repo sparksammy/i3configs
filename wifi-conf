@@ -3,6 +3,7 @@ echo Network Name
 read NETWORK_ID
 echo Network Passkey
 read WIRELESS_KEY
+ip link
 echo WLAN Interface
 read INTERFACE
 
