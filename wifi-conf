@@ -1,10 +1,10 @@
-iwlist wlan0 scan
+ip link
+echo WLAN Interface
+read INTERFACE
+iwlist $INTERFACE scan
 echo Network Name
 read NETWORK_ID
 echo Network Passkey
 read WIRELESS_KEY
-ip link
-echo WLAN Interface
-read INTERFACE
 
 sudo iwconfig $INTERFACE essid $NETWORK_ID key $WIRELESS_KEY
