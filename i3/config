@@ -172,8 +172,9 @@ bindsym --release $mod+Mod2+KP_6 move right
 bindsym --release $mod+t exec lxterminal
 bindsym --release $mod+y floating toggle
 
-#window environment
+#window environment 
 for_window [class="[.]*"] floating enable
+focus_follows_mouse no
 
 
 #autostart
