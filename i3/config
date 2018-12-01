@@ -161,6 +161,7 @@ exec compton -b --config ~/.config/compton.conf
 
 #panel
 exec --no-startup-id xfce4-panel
+exec dbus-launch nm-applet
 
 #good binds for good vibes
 bindsym --release $mod+button2 kill
